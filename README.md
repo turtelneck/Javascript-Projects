@@ -9,10 +9,10 @@
 		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/todo_app">To-Do List</a>
 	</li>
 	<li>
-		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/react_projects">React Projects</a>
+		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/react_projects">React Projects</a> | React
 	</li>
 	<li>
-		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/Ajax">Ajax Demo</a>
+		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/Ajax">Ajax Demo</a> | Ajax
 	</li>
 	
 </ul>
