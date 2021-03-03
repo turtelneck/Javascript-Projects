@@ -1,6 +1,8 @@
 <h3>This depository's noteworthy projects: </h3>
 <ul>
 	<li>
+		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/TicTacToe">Tic Tac Toe</a>
+	<li>
 		<a href="https://github.com/turtelneck/javascript-projects/tree/main/Project9_countdown_slideshow">Slideshow/Timer</a>
 	</li>
 	<li>
@@ -13,6 +15,10 @@
 		<a href="https://github.com/turtelneck/Javascript-Projects/tree/main/Ajax">Ajax Demo</a>
 	</li>
 	
+</ul>
+Tic Tac Toe:
+<ul>
+	<li>It's the classic Tic Tac Toe game that programming students make! Very, <i>very</i> exciting. On the bright side, the computer only makes choices at random, so if you like winning you're in the right place.</li>
 </ul>
 Slideshow/Timer:
 <ul>
