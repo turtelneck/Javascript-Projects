@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>react1</title>
+	<script src="react/react.js"></script>
+	<script src="react/react-dom.js"></script>
+</head>
+<body>
+	<div id="my_react_code">
+		<script>
+			// initiates a class
+			var Counter = React.createClass({
+				// creates Counter.render()
+				render: function() {
+					// rounds timePassed to the tenth place
+					var timePassed = Math.round(this.props.timePassed / 100);
+					// ensures a `timePassed` value with no remainder ends in '.0'
+					var secondsPassed = timePassed / 10 + (timePassed % 10 ? '' : '.0' );
+					// the text to be rendered
+					var text = 'My React code started ' + secondsPassed + ' seconds ago!';
+					// returns `text` in the form of a <p> element
+					return React.DOM.p(null, text);
+				}
+			});
+
+			var counterFactory = React.createFactory(Counter);
+
+			var startCounting = new Date().getTime();
+			// ensures action after the specified number of milliseconds
+			setInterval(function() {
+				// renders a component
+				ReactDOM.render(
+					// first param specifies what to render
+					counterFactory({timePassed: new Date().getTime() - startCounting}),
+					// second param specifies render location
+					document.getElementById('my_react_code')
+				);
+			}, 50);
+		</script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+html {
+	font-family: arial;
+}
+
+.center-container { /*table and canvas container*/
+	width: 608px;
+	margin: 0 auto; /* centers container */
+	margin-top: 50px;
+}
+
+table {
+	border-collapse: collapse; /* collapses all borders into one */
+	border-style: hidden; /* hides outer borders */
+}
+
+td {
+	cursor: pointer;
+	border: 4px solid rgba(252, 169, 3, 0.8);
+	padding: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+canvas {
+	position: absolute;
+	z-index: 10;
+	pointer-events: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}

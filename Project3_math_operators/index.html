@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>hello universe</title>
+	<script src="JS/main.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<!-- Multiplication -->
+	<select id="numberzzz">
+		<option value="aw yeah">Pick a number, any number</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+	</select>
+	
+		<br>
+	<button onclick="{doMath('hello1')}">multiply that sucker</button>
+		<br>
+	<p id="math1">1</p>
+	<p id="hello1"></p>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<!-- Addition -->
+	<br>
+	<h3>Oh hey, wanna see some addition?</h3>
+
+	<button onclick="{addition(3, 3)}">yes</button>
+		<br>
+	<p id="math2">3 + 3</p>
+	<p id="hello2"></p>
+
+	<!-- Subtraction -->
+	<br>
+	<h3>aaaand I bet you wanna see some subtraction too</h3>
+
+	<button onclick="{subtraction(3, 3)}">correct</button>
+		<br>
+	<p id="math3">3 - 3</p>
+	<p id="hello3"></p>
+
+	<!-- Division -->
+	<br>
+	<h3>and I think we can safely move on to division here</h3>
+
+	<button onclick="{division(3, 3)}">yeah, probably</button>
+		<br>
+	<p id="math4">3/3</p>
+	<p id="hello4"></p>
+
+	<!-- Modulus -->
+	<br>
+	<h3>and you <i>know</i> we gotta check out that <i>modulus</i> operator</h3>
+
+	<button onclick="{modulus(238, 45)}">we totally do</button>
+		<br>
+	<p id="math5">238 % 45</p>
+	<p id="hello5"></p>
+
+	<!-- Unary -->
+	<br>
+	<h3>ok this one's less exciting; here's the unary operator</h3>
+
+	<button onclick="{unary(250000)}">hmmm...</button>
+		<br>
+	<p id="math6">250000</p>
+	<p id="hello6"></p>
+
+	<!-- Math.random() -->
+	<br>
+	<h3>pick a number, any number--oh wait, we'll pick one for you</h3>
+
+	<button onclick="{rand()}">oh dayum, rly?</button>
+		<br>
+	<p id="math7">your number is... </p>
+	<p id="hello7"></p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+</body>
+</html>

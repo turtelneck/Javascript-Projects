@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ternary stuff</title>
+	<script type="text/javascript" src="JS/main.js"></script>
+	<style type="text/css">
+		html {
+			font-family: arial;
+		}
+		input {
+			text-align: center;
+			padding: 3px;
+			height: 20px;
+		}
+		button {
+			height: 30px;
+		}
+		#final {
+			position: relative;
+		    left: 67px;
+		    top: 7px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h3>INTELLIGENCE TEST</h3>
+		<p>can you think of a number greater than 2,345?</p>
+		<input type="number" id="iqtest">
+		<button onclick="iqTest()">submit</button>
+		<p id="testresults"></p>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div>
+		<h3>Our Pals, Erik and Emily</h3>
+		<p>wanna see what kind of car our boy Erik drives?</p>
+		<button onclick="erickFunction()">yeah!</button>
+		<p id="Keywords_and_Constructors" style="text-align: center;"></p>
+		<p>aaaaaand wanna see what kind of car our girl Emily drives?</p>
+		<button onclick="emilyFunction()">naturally</button>
+		<p id="New_and_This" style="text-align: center;"></p>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div>
+		<h3>Nested Functions</h3>
+		<p>I decided to try coding the pythagorean theorum using homemade implementations of `Math.sqrt()` and `Math.pow()`. The idea was that this would be a fun, visually clear way to demonstrate my understanding of nested functions. Buuuuut it ended up being a way-too-complicated research project where I obsessively learned math stuff in order to recreate `Math.sqrt()` without an endless string of if-else statements.
+			<br>
+			<br>
+		After almost 2 hours&mdash;and lots of help from a friend&mdash;I've managed it using Newton's Method.
+			<br>
+			<br>
+		So anyway, pick a couple numbers:</p>
+		<form>
+			<input type="number" id="sideA" name="sideA">
+			<input type="number" id="sideB" name="sideB">
+		</form>
+		<button id="final" onclick="pythagoreanTheorum(sideA.value, sideB.value)">O great pythagoras, I summon thee!</button>
+		<p id="nested"></p>
+	</div>
+</body>
+</html>

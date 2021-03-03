@@ -1,0 +1,83 @@
+html {
+	font-family: arial;
+}
+
+h1 {
+	font-size: 40px;
+	position: absolute;
+	top: 13%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.todo-container {
+	position: absolute;
+	left: 50%;
+	top: 28%;
+	transform: translate(-50%, -50%);
+	padding: 14px;
+}
+
+span {
+	display: inline-block;
+    margin: 1px 2px;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px;
+}
+
+#todos {
+	position: absolute;
+	left: 49.3%;
+    top: 57%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 400px;
+	overflow-y: scroll;
+}
+
+#task {
+	padding: 8px;
+	margin: 2px;
+	width: 300px;
+	font-size: 24px;
+}
+
+#add {
+	padding: 8px;
+	font-size: 24px;
+	width: 48px;
+}
+
+.remove {
+	padding: 8px;
+	font-size: 24px;
+	width: 48px;
+	float: right;
+}
+
+hr {
+	margin: 14px;
+}
+
+footer {
+	padding: 2%;
+	background-color: white;
+	position: absolute;
+	width: 700px;
+	left: 50%;
+	bottom: 1%;
+	transform: translate(-50%, -50%);
+}
+
+li {
+	list-style: none;
+}
+
+center {
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 10px;
+	margin: auto;
+	width: 270px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+</head>
+
+<script>
+// sets up a function to execute when the page readies
+$(document).ready(function() {
+	// adds the contianed html to the page
+	$("html").append(
+		"<body>\
+			<div id='container'>\
+				<h1>Basic jQuery</h1>\
+				<p id='1'>Paragraph 1</p>\
+				<p id='2'>Paragraph 2</p>\
+				<p id='3'>Paragraph 3</p>\
+			</div>\
+		</div>\
+	</body>"
+	);
+	// adds the contained css to the page
+	$("#2").css({"color":"red"});
+	// hides the 'h1' element when clicked
+	$("#3").click(function() {
+		$('h1').hide();
+	});
+});
+
+</script>
+</html>
